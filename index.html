@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My_personal_page</title>
+    <style>
+        @import url('fonts/main_font.css');
+
+        * {
+            /* Сбрасывание стандартных стилей и добавление шрифтов */
+            margin: 10;
+            font-family: 'StratosSkyeng', sans-serif;
+        }
+
+        .content {
+            /* Эти два свойства нужны чтобы фон подстраивался на весь экран */
+            background-size: cover;
+            min-height: 100vh;
+            /* Пиши свой код ниже */
+            
+        }
+
+        /* Класс для расположения элементов в 1 ряд */
+        .in-one-line {
+            display: flex;
+            /* Отступ между элементами */
+            gap: 50px;
+        }
+        
+        /* Класс для центрирования страницы */
+        body {
+            padding-top: calc(15% - 150px);
+            padding-left: calc(60% - 600px);  
+            padding-right: calc(50% - 500px);
+            
+            h2 {
+                margin-top: 40px;
+            }
+            p {
+                font-size: 20px;
+                margin-left: 500px;
+
+            }
+
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Моя личная страница</h1>
+        <h2>Евы Терехиной</h2>
+    </div>
+    <a href="./facts.html">Следующая страница</a>
+    <img src="./images/goose.jpeg" alt="Гусь">
+    <div>
+        <p>Приветик! Это мой проект по изучению фронта, и в нём я хочу рассказать о себе крутые факты и потренировать мой код стайл :)</p>
+    </div>
+    <div>
+        <p1>На страничках ты найдёшь:
+             Интересные факты обо мне
+             Мои любимые мемы
+             Мои любимые цитаты</p1>
+    </div>
+   
+   
+    
+</body>
+</html>
